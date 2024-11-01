@@ -1,5 +1,7 @@
 export default function Home() {
   return (
-    <div>Dashboard Page</div>
+    <div>
+      Dashboard Page
+    </div>
   );
 }
