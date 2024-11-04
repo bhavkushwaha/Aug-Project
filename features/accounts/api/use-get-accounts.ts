@@ -1,7 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 
 import { client } from "@/lib/hono"
-import { errorMonitor } from "events";
 
 export const useGetAccounts = ()=>{
     const query = useQuery({
