@@ -22,7 +22,9 @@ const AccountsPage = ()=>{
     const newAccount = useNewAccount(); 
     const deleteAccounts = useBulkDeleteAccounts();
     const accountsQuery = useGetAccounts();
-    const accounts = (!accountsQuery.isError)? (accountsQuery.data || []) : [];
+    const accounts = Array.isArray(accountsQuery.data) ? accountsQuery.data : [];
+
+    // const accounts = (!accountsQuery.isError)? (accountsQuery.data || []) : [];
 
     const isDisabled = accountsQuery.isLoading || deleteAccounts.isPending;
 
