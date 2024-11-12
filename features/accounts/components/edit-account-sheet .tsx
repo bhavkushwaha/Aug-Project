@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 import { useGetAccount } from "@/features/accounts/api/use-get-account";
-import { useOpenAccount } from "@/features/accounts/hooks/use-open-accounts";
+import { useOpenAccount } from "@/features/accounts/hooks/use-open-account";
 import { AccountForm } from "@/features/accounts/components/account-form";
 import { useEditAccount } from "@/features/accounts/api/use-edit-account";
 import { useDeleteAccount } from "@/features/accounts/api/use-delete-account";
