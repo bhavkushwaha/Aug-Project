@@ -2,7 +2,7 @@ import { z } from "zod";
 
 import { CategoryForm } from "@/features/categories/components/category-form";
 import { useGetCategory } from "@/features/categories/api/use-get-category";
-import { useOpenCategory } from "@/features/categories/hooks/use-open-categories";
+import { useOpenCategory } from "@/features/categories/hooks/use-open-category";
 import { useEditCategory } from "@/features/categories/api/use-edit-category";
 import { useDeleteCategory } from "@/features/categories/api/use-delete-category";
 

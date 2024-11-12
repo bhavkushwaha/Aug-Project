@@ -2,7 +2,7 @@
 
 import { Edit, MoreHorizontal, Trash } from 'lucide-react';
 
-import { useOpenAccount } from '@/features/accounts/hooks/use-open-accounts';
+import { useOpenAccount } from '@/features/accounts/hooks/use-open-account';
 import { useDeleteAccount } from '@/features/accounts/api/use-delete-account';
 
 import { Button } from '@/components/ui/button';
