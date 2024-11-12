@@ -47,12 +47,12 @@ export const AmountInput = ({
                             )}
                         >
                             {!parsedValue && <Info className="size-3 text-white" />}
-                            {isIncome && !parsedValue && <PlusCircle className="size-3 text-white" />}
-                            {isExpense && !parsedValue && <MinusCircle className="size-3 text-white" />}
+                            {isIncome && <PlusCircle className="size-3 text-white" />}
+                            {isExpense && <MinusCircle className="size-3 text-white" />}
                         </button>
                     </TooltipTrigger>
                     <TooltipContent>
-                        Use [+] for income and [-] for expenses
+                        Use [+] for income and [-] for expense
                     </TooltipContent>
                 </Tooltip>
             </TooltipProvider>
