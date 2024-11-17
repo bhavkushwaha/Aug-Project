@@ -107,8 +107,7 @@ export const ImportCard = ({
                 date : format(parse(item.date, dateFormat, new Date()), outputFormat)
             }));
 
-
-        console.log({ formattedData });
+        onSubmit(formattedData);
     };
 
     return (
