@@ -19,7 +19,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Finance Platform",
+  title: "WealthWise",
   description: "A Fintech SaaS Application",
 };
 

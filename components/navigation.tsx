@@ -29,7 +29,7 @@ const routes = [
     },
     {
         href: "/settings",
-        label: "Settings",
+        label: "FinanceGPT",
     },
 ];
 

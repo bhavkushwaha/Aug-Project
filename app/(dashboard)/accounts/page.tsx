@@ -54,7 +54,7 @@ const AccountsPage = ()=>{
                     </CardTitle>
                     <Button onClick={newAccount.onOpen} className='font-bold size-sm'>
                         <Plus className='size-5 mr-2' />
-                        Add new
+                        New
                     </Button>
                 </CardHeader>
                 <CardContent>

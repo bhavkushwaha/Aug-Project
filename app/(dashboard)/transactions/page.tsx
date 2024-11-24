@@ -123,7 +123,7 @@ const TransactionsPage = ()=>{
                     <div className='flex flex-col lg:flex-row gap-y-2 items-center gap-x-2'>
                         <Button onClick={newTransaction.onOpen} className='w-full lg:w-auto font-bold size-sm'>
                             <Plus className='size-5 mr-2' />
-                            Add new
+                            New
                         </Button>
                         <UploadButton onUpload={onUpload} />
                     </div>
