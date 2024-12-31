@@ -28,7 +28,7 @@ const routes = [
         label: "Categories",
     },
     {
-        href: "/settings",
+        href: "https://finance-gpt-lake.vercel.app/",
         label: "FinanceGPT",
     },
 ];
